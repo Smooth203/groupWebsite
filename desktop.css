@@ -1,0 +1,90 @@
+html
+{
+	--colour1: #007ad1;
+	--colour2: green;
+}
+
+#headerbar
+{
+	position: fixed;
+	top: 0px;
+	left: 50%;
+	width: 75%;
+	height: 200px;
+
+	transform: translateX(-50%);
+
+	/*background: #0096FF;*/
+	border: solid 1px;
+}
+
+#mmuLogo
+{
+	position: fixed;
+	top: 5%;
+	right: 2.5%;
+	width: 20%;
+}
+
+#title
+{
+	position: absolute;
+	top: 5px;
+	left: 50%;
+
+	color: black;
+	font-size: 40px;
+
+	transform: translateX(-50%);
+}
+
+#navbar
+{
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	width: 75%;
+
+	transform: translateX(-50%);
+}
+
+#navbar table
+{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.navlink
+{
+	position: relative;
+
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	border: solid 1px;
+
+	background: white;
+
+	transition-duration: 0.5s;
+}
+
+.navlink:hover
+{
+	background: var(--colour1);
+	color: white;
+}
+
+#content
+{
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	width: 100%;
+}
