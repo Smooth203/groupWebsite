@@ -1,29 +1,31 @@
 html
 {
 	--colour1: #007ad1;
-	--colour2: green;
+
+	font-family: Arial, sans-serif;
 }
 
 #headerbar
 {
-	position: fixed;
+	position: absolute;
 	top: 0px;
 	left: 50%;
 	width: 75%;
-	height: 200px;
+	height: 150px;
 
 	transform: translateX(-50%);
 
 	/*background: #0096FF;*/
-	border: solid 1px;
 }
 
 #mmuLogo
 {
-	position: fixed;
-	top: 5%;
-	right: 2.5%;
-	width: 20%;
+	position: absolute;
+	top: 25px;
+	left: 0%;
+	width: 200px;
+
+	transform: translateX(-75%);
 }
 
 #title
@@ -32,7 +34,7 @@ html
 	top: 5px;
 	left: 50%;
 
-	color: black;
+	color: var(--colour1);
 	font-size: 40px;
 
 	transform: translateX(-50%);
@@ -41,7 +43,7 @@ html
 #navbar
 {
 	position: absolute;
-	top: 150px;
+	top: 110px;
 	left: 50%;
 	width: 75%;
 
@@ -84,7 +86,9 @@ html
 #content
 {
 	position: absolute;
-	top: 150px;
+	top: 200px;
 	left: 0px;
 	width: 100%;
+
+	text-align: center;
 }
