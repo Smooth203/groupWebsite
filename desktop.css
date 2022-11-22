@@ -92,3 +92,27 @@ html
 
 	text-align: center;
 }
+
+.centre
+{
+	margin-left: auto;
+  	margin-right: auto;
+
+}
+
+.bio th
+{
+	font-size: 18px;
+}
+
+
+
+#bottom
+{
+	position: absolute;
+	top: calc(100% + 250px);
+	width: 10px;
+	left: 50%;
+
+	border: solid;
+}
